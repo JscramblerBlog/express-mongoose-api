@@ -1,4 +1,4 @@
-const { BlogPost } = require('../models');
+const { Book } = require('../models');
 
 module.exports = {
 	async index(){

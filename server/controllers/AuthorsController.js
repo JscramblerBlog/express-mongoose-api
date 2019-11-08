@@ -9,7 +9,7 @@ const AuthorsController = {
   	
   },
   async show(req, res){
-  	const author = await Author.findById(req.params.id);
+  	const author = await Author.findById(req.params.id).populate('books');
   	res.send(author);
   },
   async update(req, res){

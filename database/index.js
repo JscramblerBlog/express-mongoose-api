@@ -3,7 +3,7 @@ const mongoose = require('mongoose'),
 	envConfig = require('../server/env')[env];
 
 mongoose.Promise = require('bluebird');
-mongoose.connect(envConfig.db, { useMongoClient: true, });
+mongoose.connect(envConfig.db, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // CONNECTION EVENTS
 mongoose.connection.on('connected', function () {  
