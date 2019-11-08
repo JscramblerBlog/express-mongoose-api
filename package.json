@@ -17,14 +17,14 @@
   "author": "Connor Leech",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.5.5",
-    "body-parser": "^1.13.1",
-    "cookie-parser": "^1.3.5",
-    "cors": "^2.7.1",
-    "dotenv": "^8.0.0",
-    "express": "^4.12.4",
+    "bluebird": "^3.7.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
-    "method-override": "^2.3.3",
-    "mongoose": "^4.0.5"
+    "method-override": "^3.0.0",
+    "mongoose": "^5.7.8"
   }
 }
